@@ -1,0 +1,46 @@
+main {
+    display: grid;
+    place-content: center;
+    align-content: center;
+}
+
+main div {
+    background-color: #004e7e;
+    border: 10px solid #3ACEB4;
+    min-height: 300px;
+    width: 400px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main div p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[type=email], input[type=password] {
+    border: none;
+    margin-top: 10px;
+    width: 300px;
+    padding: 8px;
+    outline: none;
+}
+
+input[type=submit] {
+    color: white;
+    margin-top: 30px;
+    border: none;
+    background-color: #3ACEB4;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+span {
+    color: red;
+}
+
+.loginInfo {
+    font-size: 15px;
+}

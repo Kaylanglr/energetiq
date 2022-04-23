@@ -1,0 +1,88 @@
+.verbruikInfo {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: 
+    "knoppen"
+    "diagram";
+}
+
+.geenRecords {
+    display: grid;
+    place-content: center;
+}
+
+.melding {
+    height: 250px;
+    width: 400px;
+    background-color: #004e7e;
+    border: 10px solid #3ACEB4;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.melding img {
+    margin: 0;
+    width: 200px;
+}
+
+.melding p {
+    margin-bottom: 50px;
+}
+
+.melding a {
+    color: white;
+    margin-top: 30px;
+    border: none;
+    background-color: #3ACEB4;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+.diagram {
+    grid-area: diagram;
+    background-color: white;
+    border: 10px solid #3ACEB4;
+}
+
+.knoppen {
+    display: flex;
+    place-content: center;
+    padding: 20px;
+    grid-area: knoppen;
+    background-color: white;
+}
+
+.knoppen a, select, p {
+    margin-right: 20px;
+}
+
+
+
+.knoppen a {
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 18px;
+    background-color: #3ACEB4;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+select {
+    border: 3px solid #3ACEB4;
+    padding: 8px;
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 20px;
+    width: 110px;
+}
+

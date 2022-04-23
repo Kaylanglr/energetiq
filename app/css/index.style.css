@@ -1,0 +1,46 @@
+main {
+    display: grid;
+    place-content: center;
+}
+
+.home {
+    background-color: #004e7e;
+    height: 600px;
+    width: 1200px;
+    border: 10px solid #3ACEB4;
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "image info";
+}
+
+
+
+.image {
+    grid-area: image;
+    display: grid;
+    place-content: center;
+}
+
+.image img {
+    margin: 0;
+    width: 500px;
+}
+
+.info {
+    color: white;
+    grid-area: info;
+    display: grid;
+    padding-top: 200px;
+    justify-content: left;
+    font-weight: bold;
+}
+
+.info p {
+    width: 90%;
+}
+
+.info a {
+    color: #3ACEB4;
+    margin-bottom: 10px;
+}

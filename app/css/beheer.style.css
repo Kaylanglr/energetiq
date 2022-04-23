@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+main {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 350px;
+    gap: 1rem;
+}
+
+.klantKaart {
+    position: relative;
+    background-color: #004e7e;  
+    border: 10px solid #3ACEB4;  
+    height: 320px;
+    width: 400px;
+    padding: 0px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.klantKaart ul {
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0px 10px 0px;
+}
+
+.p1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.p2 {
+    margin-left: 40px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+
+.knop {
+    color: white;
+    text-decoration: none;
+    background-color: #3ACEB4;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+}
+
+.gas {
+    top: 260;
+    left: 37;
+}
+
+.stroom {
+    top: 260;
+    left: 90;
+}
+
+.delete {
+    top: 260;
+    left: 300;
+}
+
+.records {
+    left: 37;
+    top: 180;
+}
+
+@media screen and (max-width: 1300px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

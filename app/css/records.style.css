@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    place-content: center;
+}
+
+main div {
+    text-align: center;
+    padding: 20px;
+    height: min-content;
+    background-color: #004e7e;
+    border: 10px solid #3ACEB4;
+}
+
+
+div table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    color: white;
+}
+
+table th, td {
+    padding: 8px;
+}
+
+table thead {
+    background-color: #3ACEB4;
+}
+
+td a {
+    color: white;
+}
+
+table tr:nth-child(even){background-color: #005b94;}
+
+.back-btn {
+    color: white;
+    text-decoration: none;
+    background-color: #3ACEB4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: white;
+}
